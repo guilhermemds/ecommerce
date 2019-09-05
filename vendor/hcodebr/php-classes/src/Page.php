@@ -57,7 +57,6 @@ class Page {
 
 	public function setTpl($tplname, $data = array(), $returnHTML = false)
 	{
-
 		$this->setData($data);
 
 		return $this->tpl->draw($tplname, $returnHTML);
