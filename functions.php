@@ -7,6 +7,4 @@ function formatPrice(float $vlprice){
 	
 }
 
-
-
 ?>
